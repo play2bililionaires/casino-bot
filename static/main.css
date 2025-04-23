@@ -1,45 +1,41 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-        sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
-}
-
-.App {
+.container {
     text-align: center;
 }
 
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+#slot-result {
+    margin-top: 20px;
+    font-size: 2rem;
 }
 
-.App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+#spin-output {
+    font-weight: bold;
+    font-size: 3rem;
+    display: block;
+    margin: 10px 0;
 }
 
-.App-link {
-    color: #61dafb;
+#payout-output {
+    color: green;
+    font-size: 2rem;
 }
 
-.heart {
-    color: #ff0000;
+#spin-button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
-.small {
-    font-size: 0.75rem;
+.slot-machine {
+    /* Add any additional styles for the slot machine section if needed */
 }
